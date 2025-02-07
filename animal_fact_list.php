@@ -1,6 +1,6 @@
 <?php
 	include 'fact_database.php';
-	$query = "SELECT * FROM animalfacts ORDER BY id";
+	$query = "SELECT * FROM facts ORDER BY id";
 	$facts = mysqli_query($conn, $query);
 ?>
 <!DOCTYPE html>

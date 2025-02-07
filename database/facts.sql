@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `animalfacts`
 --
 
-CREATE TABLE `animalfacts` (
+CREATE TABLE `facts` (
   `id` int(30) NOT NULL,
   `fact` varchar(140) NOT NULL,
   `animal` varchar(30) NOT NULL,
@@ -42,7 +42,7 @@ CREATE TABLE `animalfacts` (
 --
 -- Indexes for table `animalfacts`
 --
-ALTER TABLE `animalfacts`
+ALTER TABLE `facts`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -52,7 +52,7 @@ ALTER TABLE `animalfacts`
 --
 -- AUTO_INCREMENT for table `animalfacts`
 --
-ALTER TABLE `animalfacts`
+ALTER TABLE `facts`
   MODIFY `id` int(30) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
